@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+    body {
+        background-color:rgb(139, 30, 54)
+        color: black;
+    }
+
+    div#interface {
+        width: 1000px;
+        background-color: rgba(106, 21, 14, 50%);
+        margin: -25px auto 0px auto;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    p {
+        text-align: justify;
+        text-indent: 50px;
+    }
+
+
+    /*Formatação de imagens com legendas*/
+
+.la img {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    transform: translate(760px, -120px);
+
+}
+
+figure.foto-legenda {
+    position:relative;
+    border: 0px solid white;
+    box-shadow: 0px 0px 0px black;
+}
+
+figure.foto-legenda img {
+    width: 100%;
+    height: 100%;
+
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing:border-box;
+    transition: opacity 1s;
+
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 100%;
+
+}
+
+/*Formatação de menu*/
+
+nav#menu {
+    display: block;
+
+
+
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -14px;
+    left: 732px;
+
+}
+
+nav#menu li {
+    display: inline-block;
+    background-color: #79000000;
+    padding: 5px;
+    margin: -1px;
+    transition: background-color 0.5s;
+
+}
+
+nav#menu li:hover {
+    background-color: #811d1d;
+
+}
+
+nav#menu h1 {
+    display: none;
+
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+
+}
+
+.logo img {
+    position: relative;
+    width: 10%;
+    height: 20%;
+    transform: translate(930%, 28%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Euleonart - Contato</title>
+	<link rel="stylesheet" href="_css/estilo-copia.css"/>
+
+	<style>
+	h1 {font-family:garamond;
+		font-size: 30pt;
+		color: black;
+		text-shadow: 2px 2px 100px black;
+		}
+
+	body {
+		background-color:rgb(139, 30, 54);
+
+	}
+	</style>
+	
+</head>
+
+
+<body>
+<div id="interface">
+
+	<header id="cabecalho">
+	<hgroup>
+	<h1 style="text-align: center">euleonar</h1>
+	<h2 style="text-align: center">Artista, Ilustrador Digital</h2>
+	</hgroup>
+	<figure class="la">
+		<img src="02-09-11.38.57.png" width="30%" height="30%"/>
+<nav id="menu">
+	</figure>
+	<h1>Menu Principal</h1>
+	<ul>
+		<li><a href="index-copia.html">Principal</a></li>
+		<li><a href="specs.html">Especificações</a></li>
+		<li><a href="fotos.html">Fotos</a></li>
+		<li><a href="multimidia.html">Multimídia</a></li>
+		<li><a href="fale-conosco.html">Contato</a></li>
+	</ul>
+</nav>
+	</header>
+
+
+<hgroup>
+<h1>Saiba tudo sobre minhas artes</h1>>
+<h2>por Leonardo Augusto</h2>
+<h3>Atualizado em Fevereiro/2021</h3>
+</hgroup>
+<h2>Quem sou</h2>
+<p> Conhecido por <span style="text-decoration: underline;">Leonardo ou <a href="https://instagram.com/euleonart?igshid=oy18hp3rky17" target="_blank">euleonart.</a></span> 19 anos, nordestino, morador de Angra dos Reis, já tem contato com o mundo da arte há muitos anos, mas desta vez de maneira mais profissional decidiu fazer este site para futuros <b><i>pedidos e contatos</b></i>.
+
+
+<figure class="foto-legenda">
+	<img src="02-13-03.30.19.png" width="50%" height="50%"/>
+	<figcaption>
+		<h3>Google glass</h3>
+		<p>Uma nova maneira de enxergar o mundo</p>
+	</figcaption>
+</figure>
+
+
+
+
+<h2>Data de lançamento</h2>
+<p>Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.</p>
+
+<h2>Especificações Técnicas</h2>
+<p>Tabela Técnica do Google Glass Mar/2013</p>
+
+Tela:Resolução equivalente a tela de 25"
+Camera: 5MP para fotos / 720p para vídeos
+Conectividade: Wi-Fi/ Bluetooth
+Memória Interna: 12GB
+
+<h2>Como funciona</h2>
+<p>De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como selecionar opções com o movimento da cabeça</p>
+
+<h2>O que você pode fazer com o Google Glasses</h2>
+<p>O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-<wbr/>humano”, já que o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado, mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.</p>
+
+[AQUI ENTRA UM VÍDEO]
+
+Outras Notícias
+Vídeo mais recente
+
+[AQUI ENTRA UM VÍDEO]
+
+<h2>Novidades no Glass</h2>
+<p>O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.</p>
+
+<p>Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360 pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a 2,5 metros de distância do espectador.</p>
+
+<figure class="logo">
+<img src="11.38.57.png" width="30%" height="30%"/>
+</figure>
+Copyright © 2021 - by Leonaro Augusto
+(@euleonart Facebook | Twitter | instagram)</aside>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+Hardware	Xiaomi Redmi Note 8 Pro
+Chipset	64bits - MediaTek Helio G90T (12nm)
+CPU (processador, núcleos)	Octa-Core, 2 processadores:
+2.05Ghz Dual-Core ARM Cortex-A76
+2Ghz Hexa-Core ARM Cortex-A55
+GPU (placa gráfica)	ARM Mali-G76 MC4 800Mhz
+Memória RAM	6GB LPDDR4X
+Memória interna	64GB (51GB disponível)
+UFS 2.1
+Armazenamento externo	Até 512GB microSD, microSDXC
+(híbrido, usa o mesmo espaço do cartão SIM-2)
